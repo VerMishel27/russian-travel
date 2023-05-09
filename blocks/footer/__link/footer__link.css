@@ -1,0 +1,31 @@
+.footer__link {
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    /* font-family: 'Inter'; */
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+    .footer__link {
+        font-size: calc( (100vw - 320px)/(700 - 320) * (16 - 24) + 24px);
+        line-height: calc( (100vw - 320px)/(700 - 320) * (18 - 24) + 24px);
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .footer__link {
+        line-height: 24px;
+        font-size: 24px;
+    }
+    
+}

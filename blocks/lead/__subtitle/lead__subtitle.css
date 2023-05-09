@@ -1,0 +1,32 @@
+.lead__subtitle {
+    max-width: 640px;
+    margin: 0 0 64px;
+    /* font-family: 'Inter'; */
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .lead__subtitle {
+        font-size: calc( (100vw - 320px)/(768 - 320) * (30 - 16) + 16px);
+        line-height: calc( (100vw - 320px)/(768 - 320) * (36 - 20) + 20px);
+        margin-bottom: calc( (100vw - 320px)/(768 - 320) * (64 - 40) + 40px);
+        width: calc( (100vw - 320px)/(768 - 320) * (640 - 288) + 288px);
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .lead__subtitle {
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+        
+    }
+}

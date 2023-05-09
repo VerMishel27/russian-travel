@@ -1,0 +1,34 @@
+.header__lang-link {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 28px;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.header__lang-link:first-of-type {
+    text-decoration-line: underline;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .header__lang-link {
+        font-size: calc( (100vw - 320px) / (768 - 320) * (24 - 18) + 19px);
+        line-height: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+}

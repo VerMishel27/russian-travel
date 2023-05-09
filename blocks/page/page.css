@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Inter";
+    src: url("/fonts/Inter.ttf") format("truetype");
+    font-style: normal;
+}
+
+.page {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 100vw;
+    background-color: #2A2C2F;
+    font-family: 'Inter';
+    overflow: hidden;
+}
+
+/* * {
+    outline: solid 1px red;
+} */
+

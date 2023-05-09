@@ -1,0 +1,93 @@
+.place {
+    margin: 0 auto;
+    max-width: 984px;
+    column-gap: 40px ;
+    row-gap: 48px;
+    display: grid;
+    grid-template-columns: 1fr minmax(235px, 484px);
+}
+
+.place:first-of-type {
+    margin-top: 92px;
+}
+
+.place:last-of-type {
+    margin-bottom: 92px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .place {
+        column-gap: calc( (100vw - 1024px)/(1280 - 1024) * (40 - 32) + 32px); 
+        width: calc( (100vw - 1024px)/(1280 - 1024) * (984 - 928) + 928px);
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .place{
+        column-gap: calc( (100vw - 768px)/(1024 - 768) * (32 - 28) + 28px); 
+        width: calc( (100vw - 768px)/(1024 - 768) * (928 - 720) + 720px);
+    }
+
+    .place:first-of-type {
+        margin-top: calc( (100vw - 768px)/(1024 - 768) * (92 - 88) + 88px);
+    }
+
+    .place:last-of-type {
+        margin-bottom: calc( (100vw - 768px)/(1024 - 768) * (92 - 90) + 90px);
+    }
+    
+}
+
+@media screen and (min-width: 626px) and (max-width: 768px) {
+    .place {
+        column-gap: calc( (100vw - 626px)/(768 - 626) * (28 - 25) + 25px);
+        width: calc( (100vw - 626px)/(768 - 626) * (720 - 593) + 593px);
+    }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place {
+        row-gap: calc( (100vw - 320px)/(767 - 320) * (48 - 32) + 32px); 
+        width: calc( (100vw - 320px)/(767 - 320) * (720 - 320) + 320px);
+    }
+
+    .place:first-of-type {
+        margin-top: calc( (100vw - 320px)/(767 - 320) * (88 - 62) + 62px);
+    }
+    .place:last-of-type {
+        margin-bottom: calc( (100vw - 320px)/(767 - 320) * (90 - 66) + 66px);
+    }
+   
+   
+}
+
+@media screen and (min-width: 321px) and (max-width: 626px) {
+    .place {
+        row-gap: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        row-gap: 32px;
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .place:first-of-type {
+        margin-top: 62px;
+    }
+
+    .place:last-of-type {
+        margin-bottom: 66px;
+    }
+    
+}
+
