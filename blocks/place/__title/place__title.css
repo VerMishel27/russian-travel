@@ -12,14 +12,14 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .place__title {
-        width: calc( (100vw - 1024px)/(1280 - 1024) * (460 - 440) + 440px); 
+        width: calc( (100vw - 1024px)/(1280 - 1024) * (460 - 440) + 440px);
     }
     
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .place__title {
-        width: calc( (100vw - 768px)/(1024 - 768) * (440 - 340) + 340px); 
+        width: calc( (100vw - 768px)/(1024 - 768) * (440 - 340) + 340px);
         font-size: calc( (100vw - 768px)/(1024 - 768) * (72 - 42) + 42px);
         line-height: calc( (100vw - 768px)/(1024 - 768) * (76 - 46) + 46px);
     }
@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .place__title {
-        width: calc( (100vw - 320px)/(768 - 320) * (340 - 288) + 288px); 
+        width: calc( (100vw - 320px)/(768 - 320) * (340 - 288) + 288px);
         font-size: calc( (100vw - 320px)/(768 - 320) * (42 - 32) + 32px);
         line-height: calc( (100vw - 320px)/(768 - 320) * (46 - 35) + 35px);
     }
