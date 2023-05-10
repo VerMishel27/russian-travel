@@ -1,59 +1,32 @@
 .lead__image {
-    grid-row: 3/4;
-    grid-column: 1/-1;
-    max-width: 100%;
-    object-fit: cover;
-    object-position: bottom;
-    overflow: hidden;
+    width: 100%;
+    object-fit: contain;
+    object-position: left;
     height: auto;
     
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+/* @media screen and (max-width: 1279px) {
     .lead__image {
-        width: calc( (100vw - 1024px)/(1280 - 1024) * (984 - 928) + 928px);
+        width: calc( (100vw - 1024px)/(1279 - 1024) * (984 - 928) + 928px);
     }
     
 }
 
-@media screen and (width: 1024px) {
+@media screen and (max-width:1023px) {
     .lead__image {
-        max-width: 928px;
+        width: calc( (100vw - 768px)/(1023 - 768) * (928 - 768) + 768px);
     }
 }
 
-@media screen and (min-width: 768px) and (max-width:1024px) {
+@media screen and (max-width:767px) {
     .lead__image {
-        width: calc( (100vw - 768px)/(1024 - 768) * (928 - 768) + 768px);
+        width: calc( (100vw - 424px)/(767 - 424) * (768 - 424) + 424px);
     }
 }
 
-@media screen and (width: 768px) {
+@media screen and (max-width:423px) {
     .lead__image {
-        max-width: 768px;
+        width: calc( (100vw - 320px)/(423 - 320) * (424 - 320) + 320px);
     }
-}
-
-@media screen and (min-width: 424px) and (max-width:768px) {
-    .lead__image {
-        width: calc( (100vw - 424px)/(768 - 424) * (768 - 424) + 424px);
-    }
-}
-
-@media screen and (width: 424px) {
-    .lead__image {
-        max-width: 424px;
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width:424px) {
-    .lead__image {
-        width: calc( (100vw - 320px)/(424 - 320) * (424 - 320) + 320px);
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead__image {
-        max-width: 320px;
-    }
-}
+} */

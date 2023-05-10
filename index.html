@@ -11,10 +11,10 @@
   <div class="page">
     <header class="header">
       <img src="./images/logo-header.svg" alt="География России" class="header__logo">
-      <div class="header__links">
-        <a href="./index.html" class="header__lang-link">Ru</a>
-        <a href="#" class="header__lang-link">En</a>
-      </div>
+      <ul class="header__links">
+        <li><a href="./index.html" class="header__lang-link header__lang-link_line">Ru</a></li>
+        <li><a href="#" class="header__lang-link">En</a></li>
+      </ul>
     </header>
     <main class="content">
       <section class="lead">
@@ -33,11 +33,13 @@
             усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. 
             Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
-        <p class="intro__list">Часовых поясов 11</p>
-        <p class="intro__list">Объектов природного наследия ЮНЕСКО 12</p>
-        <p class="intro__list">Объектов культурного наследия ЮНЕСКО 16</p>
-        <p class="intro__list">Природных заповедников 105</p>
-        <p class="intro__list">Аэропортов 241</p>
+        <ul class="intro__lists">
+          <li><p class="intro__list">Часовых поясов <span>11</span></p></li>
+          <li><p class="intro__list">Объектов природного наследия ЮНЕСКО <span>12</span></p></li>
+          <li><p class="intro__list">Объектов культурного наследия ЮНЕСКО <span>16</span></p></li>
+          <li><p class="intro__list">Природных заповедников <span>105</span></p></li>
+          <li><p class="intro__list">Аэропортов <span>241</span></p></li>
+        </ul>
       </section>
       <section class="photo-grid">
         <ul class="photo-grid__item-list">
@@ -57,7 +59,7 @@
       </section>
       <section class="places">
         <article class="place">
-          <h3 class="place__title" style="letter-spacing: 1px;">Куршская коса</h3>
+          <h3 class="place__title">Куршская коса</h3>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a href="http://park-kosa.ru" target="_blank" class="place__link">park-kosa.ru</a>
@@ -147,9 +149,8 @@
         </article>
       </section>
       <section class="cover">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__title">До Байкала «на собаках»</a>
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link"><h2 class="cover__title">До Байкала «на собаках»</h2></a>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-        <div class="cover__overlay"></div>
       </section>
     </main>
     <footer class="footer">

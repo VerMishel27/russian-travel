@@ -1,5 +1,5 @@
 .intro__title {
-    max-width: 690px;
+    width: 100%;
     margin: 92px 0 40px;
     /* font-family: 'Inter'; */
     font-family: 'Inter', 'Times New Roman', Times, serif;
@@ -8,42 +8,20 @@
     font-size: 54px;
     line-height: 58px;
     color: #fff;
-    grid-column: 1/-1;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .intro__title {
-        margin-top: calc( (100vw - 768px) / (1024 - 768) * (92 - 88) + 88px);
-        width: calc( (100vw - 768px) / (1024 - 768) * (690 - 720) + 720px);
+        margin-top: calc( (100vw - 768px) / (1023 - 768) * (92 - 88) + 88px);
     }
     
 }
 
-@media screen and (width: 768px) {
+@media screen and (max-width: 767px) {
     .intro__title {
-        margin-top: 110px;
-        max-width: 720px;
-    }
-    
-}
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
-    .intro__title {
-        font-size: calc( (100vw - 320px) / (768 - 320) * (54 - 32) + 32px);
-        line-height: calc( (100vw - 320px) / (768 - 320) * (58 - 35) + 35px);
-        width: calc( (100vw - 320px) / (768 - 320) * (720 - 288) + 288px);
-        margin-top: calc( (100vw - 320px) / (768 - 320) * (88 - 64) + 64px);
-    }
-    
-}
-
-@media screen and (width: 320px) {
-    .intro__title {
-        margin-top: 64px;
-        margin-bottom: 40px;
-        max-width: 288px;
-        font-size: 32px;
-        line-height: 35px;
+        font-size: calc( (100vw - 320px) / (767 - 320) * (54 - 32) + 32px);
+        line-height: calc( (100vw - 320px) / (767 - 320) * (58 - 35) + 35px);
+        margin-top: calc( (100vw - 320px) / (767 - 320) * (88 - 64) + 64px);
     }
     
 }

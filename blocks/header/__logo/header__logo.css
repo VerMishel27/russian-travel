@@ -3,17 +3,9 @@
     height: auto;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .header__logo {
-        max-width: calc( (100vw - 320px)/(768 - 320) * (176 - 142) + 142px);
-    }
-    
-}
-
-@media screen and (max-width: 320px) {
-    .header__logo {
-        max-width: 142px;
-        height: 42px;
+        width: calc( (100vw - 320px)/(767 - 320) * (176 - 142) + 142px);
     }
     
 }
