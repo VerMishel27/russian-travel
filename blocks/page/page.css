@@ -1,36 +1,27 @@
-/* @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 100;
-    font-display: swap;
-    src: url(../../fonts/Inter-Thin.woff2) format("woff2"),
-         url(../../fonts/Inter-Thin.woff) format("woff"),
-         url(../../fonts/Inter.ttf) format("truetype");
-  }
-   */
-  @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(../../fonts/Inter-Regular.woff2) format("woff2"),
-         url(../../fonts/Inter-Regular.woff) format("woff");
-  }
-
-  @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url(../../fonts/Inter-Black.woff2) format("woff2"),
-         url(../../fonts/Inter-Black.woff) format("woff");
-  }
-
 .page {
     margin: 0 auto;
     min-width: 320px;
     max-width: 100vw;
     background-color: #2A2C2F;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
 }
+
+/* @media screen and (max-width: 1279px) {
+    .page {
+        width: calc( (100vw - 1024px)/(1279 - 1024) * (1280 - 1024) + 1024px);
+    }
+    
+}
+
+@media screen and (max-width:1023px) {
+    .page {
+        width: calc( (100vw - 768px)/(1023 - 768) * (1024 - 768) + 768px);
+    }
+}
+
+@media screen and (max-width:767px) {
+    .page {
+        width: calc( (100vw - 320px)/(767 - 320) * (768 - 320) + 320px);
+    }
+} */

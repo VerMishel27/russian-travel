@@ -2,13 +2,15 @@
     margin: 0;
     max-width: 560px;
     /* font-family: 'Inter' ; */
-    font-family: 'Inter', 'Helvetica', 'Neue',  'Arial';
+    /* font-family: 'Inter', 'Helvetica', 'Neue',  'Arial', sans-serif; */
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     text-align: center;
     color: #fff;
+    z-index: 1;
 }
 
 @media screen and (max-width: 767px) {

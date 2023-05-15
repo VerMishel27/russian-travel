@@ -2,6 +2,10 @@
 
 @import url(../vendor/normalize.css);
 
+/* fonts */
+
+@import url(../vendor/fonts.css);
+
 /* page */
 
 @import url(../blocks/page/page.css);
@@ -12,7 +16,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_line/header__lang-link_line.css);
+@import url(../blocks/header/__lang-link/_line/.header__lang-link_active);
 
 /* content */
 
@@ -70,6 +74,6 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-/* * {
+* {
     outline: solid 1px red;
-} */
+}

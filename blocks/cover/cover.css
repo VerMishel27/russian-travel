@@ -3,16 +3,20 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    aspect-ratio: 8/5;
+    /* aspect-ratio: 8/5; */
     width: 100%;
     max-width: 1184px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
     margin: 0 auto;
     position: relative;
+}
+
+.cover::after {
+    content: "";
+    width: 0;
+    height: 0;
+    margin-left: -1px;
+    padding-top: calc(740/1184 * 100%);
 }
 
 .cover::before {
@@ -25,13 +29,7 @@
 
 }
 
-.cover:hover::before {
+/* .cover:hover::before {
     opacity: 0.8;
-  }
+  } */
 
-@media screen and (max-width: 767px) {
-    .cover {
-        gap: 16px;
-    }
-    
-}

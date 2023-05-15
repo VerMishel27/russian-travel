@@ -1,9 +1,28 @@
 .content {
     max-width: 1280px;
-    min-width: 320px;
     margin: 0 auto;
     display: flex;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     align-items: center;
+    align-content: center;
 }
 
+/* @media screen and (max-width: 1279px) {
+    .content {
+        width: calc( (100vw - 1024px)/(1279 - 1024) * (1280 - 1024) + 1024px);
+    }
+    
+}
+
+@media screen and (max-width:1023px) {
+    .content {
+        width: calc( (100vw - 768px)/(1023 - 768) * (1024 - 768) + 768px);
+    }
+}
+
+@media screen and (max-width:767px) {
+    .content {
+        width: calc( (100vw - 320px)/(767 - 320) * (768 - 320) + 320px);
+    }
+} */

@@ -6,14 +6,14 @@
     align-items: center;
 }
 
-/* @media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .lead {
-        width: calc( (100vw - 1024px)/(1279 - 1024) * (984 - 928) + 928px);
+        max-width: calc( (100vw - 1024px)/(1279 - 1024) * (984 - 928) + 928px);
     }
     
 }
 
-@media screen and (max-width:1023px) {
+/* @media screen and (max-width:1023px) {
     .lead {
         width: calc( (100vw - 768px)/(1023 - 768) * (928 - 768) + 768px);
     }
@@ -23,10 +23,10 @@
     .lead {
         width: calc( (100vw - 424px)/(767 - 424) * (768 - 424) + 424px);
     }
-} */
+}  */
 
 /* @media screen and (max-width:423px) {
     .lead {
         width: calc( (100vw - 320px)/(423 - 320) * (423 - 320) + 320px);
     }
-} */
+}

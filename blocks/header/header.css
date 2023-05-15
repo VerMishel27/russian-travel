@@ -19,6 +19,7 @@
 @media screen and (max-width: 1023px) {
     .header {
         width: calc( (100vw - 768px)/(1023 - 768) * (928 - 720) + 720px);
+        padding-bottom: 48px;
     }
     
 }
