@@ -6,22 +6,3 @@
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
 }
-
-/* @media screen and (max-width: 1279px) {
-    .page {
-        width: calc( (100vw - 1024px)/(1279 - 1024) * (1280 - 1024) + 1024px);
-    }
-    
-}
-
-@media screen and (max-width:1023px) {
-    .page {
-        width: calc( (100vw - 768px)/(1023 - 768) * (1024 - 768) + 768px);
-    }
-}
-
-@media screen and (max-width:767px) {
-    .page {
-        width: calc( (100vw - 320px)/(767 - 320) * (768 - 320) + 320px);
-    }
-} */

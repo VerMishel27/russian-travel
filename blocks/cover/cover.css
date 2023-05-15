@@ -3,7 +3,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* aspect-ratio: 8/5; */
     width: 100%;
     max-width: 1184px;
     display: flex;
@@ -18,18 +17,4 @@
     margin-left: -1px;
     padding-top: calc(740/1184 * 100%);
 }
-
-.cover::before {
-    content: " ";
-    opacity: 0.3;
-    background-color: #2A2C2F;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-
-}
-
-/* .cover:hover::before {
-    opacity: 0.8;
-  } */
 
